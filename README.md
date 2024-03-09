@@ -1,7 +1,16 @@
 # gh-security
 
+Links:
+- https://github.com/marketplace?type=actions
+- https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs
+
+---
+
+- Introduction:
 
 ![](readme-images/security-permissions.png?raw=true)
+
+- Concerns:
 
 ![](readme-images/security-concerns.png?raw=true)
 
@@ -14,3 +23,11 @@
 - This is after apply the suggestion above:
 
 ![](readme-images/injection-not-efective.png?raw=true)
+
+- Verified creators of actions, when you see it means that github has approved this action and gave that badge to creator.
+
+![](readme-images/verified-creators-actions.png?raw=true)
+
+![](readme-images/verified-creators-actions.png?raw=true)
+
+![](readme-images/using-actions-securely.png?raw=true)
