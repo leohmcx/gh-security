@@ -3,6 +3,8 @@
 Links:
 - https://github.com/marketplace?type=actions
 - https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs
+- https://docs.github.com/en/actions/security-guides/automatic-token-authentication
+
 
 ---
 
@@ -31,3 +33,22 @@ Links:
 ![](readme-images/verified-creators-actions.png?raw=true)
 
 ![](readme-images/using-actions-securely.png?raw=true)
+
+---
+- if you don't put any permission explicity per default it has permission to do everything.
+
+- The GITHUB_TOKEN is generated in runtime execution and it's have the same permissions that you explicity informed in the job level or in the workflow level, it depends what is the entirer purpose of it.
+
+![](readme-images/permissions.png?raw=true)
+
+---
+- Good pratices:
+
+- Restrict token by default:
+
+![](readme-images/default-token-permission.png?raw=true)
+
+- Do not allow actions to create or approve `Pull Requests`:
+
+![](readme-images/pull-requests.png?raw=true)
+
